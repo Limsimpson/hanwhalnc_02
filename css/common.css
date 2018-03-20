@@ -48,7 +48,7 @@ article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,sec
 /* HEADER */
 .main {position:relative;}
 
-.logo {float:left; width:20%; margin: 30px 0px 14px 0px;}
+.logo {float:left; width:20%; margin: 23px 0px 20px 0px;}
 
 .logo>a {display:block;}
 
@@ -83,7 +83,7 @@ nav {float:left; width:80%; margin-top: 45px;}
 
 #gnb>li.on .sub:before{display:block;}
 
-.sub, .sub:before{margin-top: -10px; margin-bottom: 7px;}
+.sub, .sub:before{margin-top: -12px; margin-bottom: 9px;}
 
 /* sub li의 패딩 탑값을 줄인 만큼 비포에 마진 바텀 주기 */
 
