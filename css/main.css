@@ -126,9 +126,9 @@
 
 .board_box {float: left;}
 
-.clip {width: 50%;}
+.clip {width: 50%; box-sizing: border-box;}
 
-.clip img {width: 100%; height: 280px; cursor: pointer;}
+.clip>img {width: 100%; height: 280px; cursor: pointer;}
 
 .co_info {width: 50%; padding-left: 2%; box-sizing: border-box;}
 
@@ -136,7 +136,7 @@
 
 .co_info h3 {font-size: 1.5em; color: #fff; font-weight: 500; padding-bottom: 15px;}
 
-.co_info a {display: block; width: 100%; margin-top: 23px; border: 1px solid #fff; text-align: center; color: #fff; line-height: 40px; transition: 0.2s;}
+.co_info a {display: block; width: 100%; margin-top: 23px; border: 1px solid #fff; text-align: center; color: #fff; line-height: 40px; transition: 0.2s; box-sizing: border-box;}
 
 .recruit a:hover {color: #01797d; border: 1px solid #01797d;}
 
@@ -168,7 +168,7 @@
 
 .news {border-right: 1px dashed #e8ded7; box-sizing: border-box;}
 
-.more {position: absolute; top: 40px; right:40px; width: 15px; height: 15px; text-indent: -9999px; background-image: url(../images/main/ico_more.png);}
+.more {position: absolute; top: 35px; right:35px; width: 15px; height: 15px; text-indent: -9999px; background-image: url(../images/main/ico_more.png);}
 
 .more:hover {background-position: -24px 0;}
 
@@ -184,7 +184,7 @@
 
 .service p:nth-child(3){line-height: 1.5;}
 
-.service a {display: block; width: 100%; margin-top: 20px; border: 1px solid #fff; text-align: center; color: #fff; line-height: 40px; transition: 0.2s;}
+.service a {display: block; width: 100%; margin-top: 20px; border: 1px solid #fff; text-align: center; color: #fff; line-height: 40px; transition: 0.2s; box-sizing: border-box;}
 
 .onshop a:hover {background-color: #01797d; border-color: #01797d;}
 

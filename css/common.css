@@ -97,7 +97,7 @@ nav {float:left; width:80%; margin-top: 45px;}
 
 /*배경에 투명도를 넣고싶으면 rgba로 색을 정하면 된다.*/
 
-.bg_sub {position:absolute; display:none; width:960px; height:200px; background-color:rgba(255, 255, 255, 0.8); margin-top:3px; top:100px; right:0; z-index:100;}
+.bg_sub {position:absolute; display:none; width:960px; height:200px; background-color:rgb(255, 255, 255); background-color:rgba(255, 255, 255, 0.8); margin-top:3px; top:100px; right:0; z-index:100;}
 
 #gnb:hover ~ .bg_sub {display:block;}
 
@@ -131,7 +131,7 @@ small {float:left; line-height: 5.5; font-size: 0.8em; color: #8a8a8a;}
 
 /* FAMILY SITE */
 
-form {float:left; width:15%; margin-top:10px;}
+form {float:left; margin-top:10px;}
 
 #site>option {font-size:1.1em; line-height:30px; color: #636363;}
 
