@@ -1,6 +1,6 @@
 # Hanwhalnc 수정본
 
-Html5 / Css3 / Jquery
+Html5 / Css3 / jQuery
 
 Responsive web
 
